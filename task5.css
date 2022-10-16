@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+.text{
+    margin: auto;
+    width: 50%;
+    background-color: rgb(189, 253, 253);
+    box-shadow: 0px 0px 3px black;
+    border-bottom: 2px solid black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 20px;
+}
+.text:hover{
+    background-color: red;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+button{
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    background: linear-gradient(lime, green);
+    color: white;
+    border: 0px;
+    box-shadow: 0px 0px 3px black;
+}
+.back{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.556);
+    display: none;
+}
+.OpenWindow{
+    position: relative;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 20vh;
+    background-color:rgb(225, 255, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    display: none;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
